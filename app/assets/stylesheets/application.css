@@ -12,4 +12,26 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap.min
  */
+
+body {
+
+	background-color: #808080;
+}
+
+.container {
+	margin: 30px 10% 0px 10%;
+}
+
+.container-login {
+
+	text-align: center;
+	margin: 90px 0px 0% 45%;
+	padding: 30px;
+}
+
+.btn-submit {
+
+	text-align: left;
+}
