@@ -1,6 +1,44 @@
-<% if user_signed_in? %>
-	<%= link_to 'Logout', destroy_user_session_path, method: :delete %>
-<% else %>
-	<%= link_to 'Login', new_user_session_path %>
-	<%= link_to 'Sign-up', new_user_registration_path %>
-<% end %>
+<div class='main-content'>
+	
+	<div class='row'>
+		<div class='sidebar col-sm-3'>
+			
+			<div class='panel panel-primary'>
+				<div class='panel-heading'>
+					Friendly Links
+				</div>
+
+				<div class='panel-body'>
+					<table class='table'>
+						<tr>
+							<td>One</td>
+						</tr>
+						<tr>
+							<td>Two</td>
+						</tr>
+						<tr>
+							<td>Three</td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class='main col-sm-9'>
+			
+			<h3>Intranet Tools</h2>
+
+			<ul>
+				<li>one</li>
+				<li>one</li>
+				<li>one</li>
+			</ul>
+
+		</div>
+	</div>
+
+		
+
+</div>

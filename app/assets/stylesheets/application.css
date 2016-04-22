@@ -21,17 +21,47 @@ body {
 }
 
 .container {
-	margin: 30px 10% 0px 10%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .container-login {
 
-	text-align: center;
-	margin: 90px 0px 0% 45%;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 30px;
 }
 
 .btn-submit {
 
 	text-align: left;
+}
+
+.main-content {
+	
+	background-color: #FFF;
+	min-height: 800px;
+
+}
+
+.sidebar {
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-left: 30px;
+
+}
+
+.main {
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-left: 30px;
+	border-left: dotted 1px;
+	min-height: 700px;
+
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1600px;
+    }
 }
