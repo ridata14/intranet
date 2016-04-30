@@ -23,6 +23,7 @@ body {
 .container {
 	margin-left: auto;
 	margin-right: auto;
+	width: 1400px;
 }
 
 .container-login {
@@ -39,9 +40,10 @@ body {
 
 .main-content {
 	
-	background-color: #FFF;
-	min-height: 800px;
-	padding-top: 30px;
+	background-color: #FFF;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	min-height: 700px;
 
 }
 
@@ -49,25 +51,108 @@ body {
 	margin-top: 20px;	
 	padding-top: 10px;
 	padding-left: 30px;
-	padding-right: 20px;
+	padding-right: 30px;
+}
 
+.sidebar > .panel-primary {
+
+	margin-bottom: 10px;
+}
+.
+.sidebar > .list-group {
+
+	margin-bottom: 30px;
 }
 
 .main {
-	margin-top: 20px;
-	padding-top: 10px;
-	padding-left: 30px;
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-left: 30px;	
 	border-left: dotted 1px;
-	min-height: 700px;
+		
+}
+
+.main-panel {
+
+	min-height: 300px;
+}
+
+
+.foo_ter {
+	background-color: #999;
+	margin-top: 15px;
+	padding: 30px;
+	min-height: 200px;
+}
+
+.list-group-item, .panel-heading {
+
+	padding: 6px;
+}
+
+.panel-heading > h4 {
+	margin: 7px;
 
 }
 
-.footer {
+.navbar {
+	margin-bottom: 15px;
+	padding: 0 20px 0 20px;
+}
 
-	background-color: #999;
-	margin-top: 20px;
+.panel-body {
+
+	padding: 7px 0px 10px 10px;
+}
+
+.panel-body > ul, li, a {
+	
+	padding-left: 5px;
+	padding-top: 4px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.panel-body > ul li a:hover {
+	
+	color: #CC3300;
+	text-decoration: none;
+}
+
+.main > .col-sm-4, .main > .col-sm-12 {
+
+	padding: 0 6px 0px 6px;
+}
+
+.tools {
+
+	padding: 30px;
+
+}
+
+.col-lg-2 {
+
+	height: 220px;
+	width: 140px;
 	padding: 20px;
+	margin: 5px;
+	padding: 20px;
+}
+
+.col-lg-2:hover {
+
+	border: 1px dotted #e0e0e0;
+}
+
+.tools > .panel > .panel-body {
+
 	min-height: 200px;
+}
+
+.automargin {
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media (min-width: 1200px) {

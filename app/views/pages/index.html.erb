@@ -4,18 +4,37 @@
 		
 		<%= render 'layouts/sidebar' %>
 
-		<div class='main col-sm-9'>
+		<div class='main col-sm-8'>
 			
-			<h3>Intranet Tools</h2>
+			<div class='col-sm-4'>
+				<%= render 'layouts/whatsnew' %>
+			</div>
 
-			<ul>
-				<li>one</li>
-				<li>one</li>
-				<li>one</li>
-			</ul>
+			<div class='col-sm-4'>
+				<%= render 'layouts/announcements' %>
+			</div>
+
+			<div class='col-sm-4'>
+				<%= render 'layouts/jobposting' %>
+			</div>
+			
+			<div class='automargin'>
+			<%= render 'layouts/tools' %>
+			</div>
 
 		</div>
 		
 	</div>
 
+
+
 </div>
+
+<%= render 'layouts/footer' %>
+
+
+
+
+
+
+
