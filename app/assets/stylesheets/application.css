@@ -42,8 +42,6 @@ body {
 	
 	background-color: #FFF;	
 	padding-top: 20px;
-	padding-bottom: 20px;
-	min-height: 700px;
 
 }
 
@@ -68,6 +66,7 @@ body {
 	margin-top: 10px;
 	padding-top: 20px;
 	padding-left: 30px;	
+	padding-bottom: 30px;
 	border-left: dotted 1px;
 		
 }
@@ -82,7 +81,8 @@ body {
 	background-color: #999;
 	margin-top: 15px;
 	padding: 30px;
-	min-height: 200px;
+	height: 250px;
+	
 }
 
 .list-group-item, .panel-heading {
@@ -96,7 +96,7 @@ body {
 }
 
 .navbar {
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 	padding: 0 20px 0 20px;
 }
 
@@ -119,9 +119,13 @@ body {
 	text-decoration: none;
 }
 
-.main > .col-sm-4, .main > .col-sm-12 {
-
+.main > .col-sm-4 {
 	padding: 0 6px 0px 6px;
+}
+
+.main > .col-sm-12 {
+
+	padding: 0px;
 }
 
 .tools {
