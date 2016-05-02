@@ -1,25 +1,30 @@
+
 <div class='main-content'>
 	
 	<div class='row'>
 		
 		<%= render 'layouts/sidebar' %>
 
-		<div class='main col-sm-8'>
+		<div class='main col-sm-9'>
 			
-			<div class='col-sm-4'>
-				<%= render 'layouts/whatsnew' %>
-			</div>
-
-			<div class='col-sm-4'>
-				<%= render 'layouts/announcements' %>
-			</div>
-
-			<div class='col-sm-4'>
-				<%= render 'layouts/jobposting' %>
-			</div>
 			
-			<div>
-			<%= render 'layouts/tools' %>
+				<div class='col-sm-4'>
+					<%= render 'layouts/whatsnew' %>
+				</div>
+
+				<div class='col-sm-4'>
+					<%= render 'layouts/announcements' %>
+				</div>
+
+				<div class='col-sm-4'>
+					<%= render 'layouts/jobposting' %>
+				</div>
+			
+			
+			<div class='row'>
+				<div class='col-sm-12 tool-wrapper'>
+					<%= render 'layouts/tools' %>
+				</div>
 			</div>
 
 		</div>
@@ -28,10 +33,11 @@
 
 </div>
 
-<%= render 'layouts/footer' %>
+<div class='footah'>
+	Footer goes here
+</div>
 
-
-
+			
 
 
 

@@ -41,15 +41,15 @@ body {
 .main-content {
 	
 	background-color: #FFF;	
-	padding-top: 20px;
+	padding: 20px;
 
 }
 
 .sidebar {
 	margin-top: 20px;	
 	padding-top: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .sidebar > .panel-primary {
@@ -65,7 +65,7 @@ body {
 .main {
 	margin-top: 10px;
 	padding-top: 20px;
-	padding-left: 30px;	
+	padding-left: 20px;	
 	padding-bottom: 30px;
 	border-left: dotted 1px;
 		
@@ -77,9 +77,9 @@ body {
 }
 
 
-.foo_ter {
+.footah {
+
 	background-color: #999;
-	margin-top: 15px;
 	padding: 30px;
 	height: 250px;
 	
@@ -132,6 +132,18 @@ body {
 
 	padding: 30px;
 
+}
+
+.top-panel {
+
+	padding: 0px;
+}
+
+.tool-wrapper {
+
+	margin-right: 6px;
+	margin-left: 6px;
+	padding-right: 24px;
 }
 
 .col-lg-2 {
